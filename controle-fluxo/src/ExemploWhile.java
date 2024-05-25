@@ -6,17 +6,17 @@ public class ExemploWhile {
  seu dinheiro, logo, enquanto o valor dos doces não igualar a R$50,00 ele vai  
  adicionando itens no seu carrinho.
 */      
-      double mesada = 50.0; 
-
-      while( mesada > 0){ 
+        double mesada = 50.0; 
+        while( mesada > 0){ 
         double valorDoce = valorAleatorio();
 
-        if(valorDoce > mesada)
-           valorDoce = mesada; 
-           
+        if(valorDoce > mesada){
+            valorDoce = mesada; 
+        }        
         System.out.println("Doce do valor: " + valorDoce + "Adicionado ao carrinho" );
            mesada = mesada - valorDoce; 
-      }
+            //50  =  50 - 8 = 42 
+         }
         System.out.println("Mesada: " + mesada);
         System.out.println("Joãozinho gastou toda sua mesada em doces.");
 
