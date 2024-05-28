@@ -2,7 +2,7 @@
 public class FormatadorCepExemplo {
     public static void main(String[] args) {
         try {
-            String cepFormatado = formatarCep("2376586");
+            String cepFormatado = formatarCep("23765868");
             System.out.println(cepFormatado);
 
         } catch (CepInvalidoException e) {
