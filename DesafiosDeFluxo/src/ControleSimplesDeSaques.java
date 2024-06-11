@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class ControleSimplesDeSaques {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,7 +22,6 @@ public class ControleSimplesDeSaques {
                 System.out.println( "Saque realizado. Limite restante: " + limiteDiario);
             }
         }
-
         // Fechar o scanner para evitar vazamentos de recursos
         scanner.close();
     }
